@@ -1,0 +1,17 @@
+services:
+  jenkins:
+    build:
+      context: ./config
+      dockerfile: Dockerfile
+    container_name: jenkins
+    user: root
+    ports:
+      - "9900:8080"
+      - "50000:50000"
+    volumes:
+      - ./data/jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    privileged: true  # Docker inside Docker
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Helsinki
