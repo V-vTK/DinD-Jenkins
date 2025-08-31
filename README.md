@@ -39,4 +39,11 @@ It's reccomended that the pipeline script is configured inside the repository:
 
 ![](assets/20250531_130644_image.png)
 
+A variable branch can be configured with:
+
+
+![](assets/20250831_154929_image.png)
+
+![](assets/20250831_154914_image.png)
+
 Example Docker CI/CD pipeline script can be found at: [https://github.com/V-vTK/NextPB-Auth-Starter](https://github.com/V-vTK/NextPB-Auth-Starterhttps:/).
