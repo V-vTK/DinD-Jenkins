@@ -41,9 +41,19 @@ It's reccomended that the pipeline script is configured inside the repository:
 
 A variable branch can be configured with:
 
-
 ![](assets/20250831_154929_image.png)
 
 ![](assets/20250831_154914_image.png)
 
 Example Docker CI/CD pipeline script can be found at: [https://github.com/V-vTK/NextPB-Auth-Starter](https://github.com/V-vTK/NextPB-Auth-Starterhttps:/).
+
+
+**Easy backup with ThinBackup:**
+
+![](assets/20250831_155044_image.png)
+
+Can store, credentials, general setttings, plugins, jobs and build history.
+
+Setup requires backup location (http://[jenkins_ip]/manage/configure):
+
+![](assets/20250831_155216_image.png)
